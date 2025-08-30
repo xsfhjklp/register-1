@@ -1,21 +1,21 @@
 {                                            (When registering your domain please remove all the text i added to explain to you how to register a subdomain, this included)
     "description": "Project Description",
     "domain": "creepers.sbs/creepers.cloud", (choose which one, more domains in the future)
-    "subdomain": "example",
+    "subdomain": "xsfhjk",
 
 "country code": "none", (this decides if your domain will go under any iso2 country code subdomain, such as 'en.domain.tld' 'it.domain.tld' etc... 
     if you type 'none' your domain will be put under the main route under the domain...so yourdomain.creepers.cloud/sbs)
     
     "owner": {
-        "github user": "https://github.com/username", (required, has to be the one who's making the request)
-        "email": "cool_email@anywebsite.tld", (to text you if we have to take action on your domain, like take it down for illegal actions or xxx content [which is not allowed])
+        "github user": "https://github.com/creepersbs/register/blob/main/CODE_OF_CONDUCT.md", (required, has to be the one who's making the request)
+        "email": "3384666202@qq.com", (to text you if we have to take action on your domain, like take it down for illegal actions or xxx content [which is not allowed])
         "discord": "optional" (this '@username' field is optional...but can be another usefull way to contact / be contacted by the support, even to transfer the subdomain to another person) 
     },
                                                                                    (then choose the records: A / AAAA / CNAME / NS / MX / TXT )                              
     "record": {
 "spare record": ["none", "A / AAAA / CNAME / MX"], (To avoid domain conflicts (such as having the same record in both CNAME and A), you can use this section 
 to choose the domain.(mainrecord).creepers.tld in the first field [none] and specify which record [A / AAAA / CNAME / MX] goes in that field.)
-           "A": ["1.1.1.1", "1.0.0.1"], (points to a IPv4 address) 
+           "A": ["45.207.193.59", "1.0.0.1"], (points to a IPv4 address) 
         "AAAA": ["::1", "::2"],   (points to a IPv6 address) 
         "CNAME": "anywebsite.tld",  (points to another sub/domain) (As a reminder: A CNAME cannot exist alongside any other domain with the same name unless it is a TXT record)
         "MX": ["mx1.anywebsite.tld", "mx2.anywebsite.tld"],  (points to mail servers)
